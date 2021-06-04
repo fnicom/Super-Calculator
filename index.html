@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Super Calculator</title>
+</head>
+
+<body>
+    <header>
+        <h1>Super Calculator</h1>
+    </header>
+    <div class="containerAll">
+        <section class="pickAnumber">
+            <div class="numberOne">
+                <p class="numberOneTitle">First number:</p>
+                <input type="text" id="numberOne" name="numberOne">
+            </div>
+            <div class="numberTwo">
+                <p class="numberTwoTitle">Second number:</p>
+                <input type="text" id="numberTwo" name="numberTwo">
+            </div>
+        </section>
+    </div>
+    <div class="results">
+        <h2>Calculo / Result</h2>
+        <div class="result1">
+            <div class="container1">
+                <p class="somaTitle">Soma A + B:</p>
+                <input type="text" id="somaTitle" name="somaTitle" readonly>
+            </div>
+            <div class="container1">
+                <p class="SubtraiTitle">Subtrai A - B:</p>
+                <input type="text" id="SubtraiTitle" name="SubtraiTitle" readonly>
+            </div>
+            <div class="container1">
+                <p class="subtrai1Title">Subtrai B - A:</p>
+                <input type="text" id="subtrai1Title" name="subtrai1Title" readonly>
+            </div>
+        </div>
+        <div class="result1">
+            <div class="container1">
+                <p class="multiplicaTitle">Multiplica A x B:</p>
+                <input type="text" id="multiplicaTitle" name="somaTitle" readonly>
+            </div>
+            <div class="container1">
+                <p class="divideTitle">Divide A / B</p>
+                <input type="text" id="divideTitle" name="divideTitle" readonly>
+            </div>
+            <div class="container1">
+                <p class="divide1Title">Divide B / A</p>
+                <input type="text" id="divide1Title" name="divide1Title" readonly>
+            </div>
+        </div>
+        <div class="result1">
+            <div class="container1">
+                <p class="quadradoATitle">O valor de A²:</p>
+                <input type="text" id="quadradoATitle" name="quadradoATitle" readonly>
+            </div>
+            <div class="container1">
+                <p class="quadradoBTitle">O valor de B²</p>
+                <input type="text" id="quadradoBTitle" name="quadradoBTitle" readonly>
+            </div>
+            <div class="container1">
+                <p class="InteiroATitle">Os divisores inteiros de A</p>
+                <input type="text" id="InteiroATitle" name="InteiroATitle" readonly>
+            </div>
+        </div>
+        <div class="result1">
+            <div class="container1">
+                <p class="InteiroBTitle">Os divisores inteiros de B:</p>
+                <input type="text" id="InteiroBTitle" name="InteiroBTitle" readonly>
+            </div>
+            <div class="container1">
+                <p class="fatorialATitle">O valor do fatorial de A</p>
+                <input type="text" id="fatorialATitle" name="fatorialATitle" readonly>
+            </div>
+            <div class="container1">
+                <p class="fatorialBTitle">O valor do fatorial de B</p>
+                <input type="text" id="fatorialBTitle" name="fatorialBTitle" readonly>
+            </div>
+        </div>
+    </div>
+    <script src=js/script.js> </script> </body> </html>
